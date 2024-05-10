@@ -1,0 +1,224 @@
+.Products-details {
+    background-color: var(--background-color);
+    transition: .2s ease-in;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 0;
+
+    .backLink {
+        color: black;
+        width: 85%;
+        margin: 0 auto;
+        font-size: 15px;
+
+
+        a {
+            background-color: transparent;
+            border: 0;
+            font-size: 15px;
+            cursor: pointer;
+            transition: .3s;
+            color: black;
+            text-decoration: none;
+
+            &:hover,
+            &:active {
+                color: blue;
+            }
+        }
+    }
+
+    .details-wrraper {
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .title {
+            color: var(--main-color);
+            font-size: 25px;
+        }
+
+        .details {
+            display: flex;
+            gap: 15px;
+
+            .otherImags {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .imgContainer {
+                    background-color: white;
+                }
+
+                img {
+                    width: 150px;
+                    height: 150px;
+                    object-fit: contain;
+                }
+            }
+
+            .mainImg {
+                width: 30%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-color: white;
+
+                img {
+                    width: 100%;
+                    height: 480px;
+                    object-fit: contain;
+                }
+            }
+
+            .text {
+                width: 50%;
+            }
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h3 {
+                font-size: 20px;
+            }
+
+            p {
+                color: rgb(109, 109, 109);
+            }
+        }
+    }
+
+    .related {
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .title {
+            color: var(--main-color);
+            font-size: 25px;
+        }
+
+        .items {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+
+            .item {
+                background-color: white;
+                padding: 10px;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                transition: .4s;
+
+                img {
+                    width: 100%;
+                    height: 240px;
+                    border-radius: 5px;
+                    object-fit: contain;
+                }
+
+                h3 {
+                    position: relative;
+                    color: var(--main-color);
+                    font-size: 17px;
+                    width: fit-content;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        bottom: -4px;
+                        left: 0;
+                        height: 2px;
+                        width: 0;
+                        background-color: var(--main-color);
+                        transition: .4s;
+                    }
+                }
+
+                p {
+                    font-size: 13px;
+                    color: rgba(49, 49, 49, 0.789);
+                    display: -webkit-box;
+                    /* For WebKit browsers */
+                    display: -ms-flexbox;
+                    /* For Microsoft Edge */
+                    -webkit-box-orient: vertical;
+                    -ms-flex-direction: column;
+                    /* For Microsoft Edge */
+                    overflow: hidden;
+                    -webkit-line-clamp: 3;
+                    /* For WebKit browsers */
+                    -ms-line-clamp: 3;
+                    /* For Microsoft Edge */
+                    white-space: normal;
+                    /* Required for line clamping */
+                    text-overflow: ellipsis;
+                }
+
+                a {
+                    margin-left: auto;
+                    padding: 5px 10px;
+                    position: relative;
+                    overflow: hidden;
+                    border: 1px solid var(--main-color);
+                    transition: color .5s;
+                    z-index: 1;
+                    font-size: 12px;
+                    border-radius: 6px;
+                    font-weight: 500;
+                    color: var(--main-color);
+                    cursor: pointer;
+                    text-decoration: none;
+
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        z-index: -1;
+                        background: var(--main-color);
+                        height: 150px;
+                        width: 200px;
+                        border-radius: 50%;
+                    }
+
+                    &:hover {
+                        color: #fff;
+                    }
+
+                    &:before {
+                        top: 100%;
+                        left: 100%;
+                        transition: all .7s;
+                    }
+                }
+
+                a:hover:before {
+                    top: -30px;
+                    left: -30px;
+                }
+
+                &:hover {
+                    transform: scale(1.04);
+
+                    h3 {
+                        &::after {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+}

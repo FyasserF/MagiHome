@@ -15,7 +15,7 @@ export default function Model(Props) {
         <group ref={group} position={[0, 0, 0]}>
             <primitive object={model.scene} />
             <OrbitControls enableZoom={false} />
-            <ContactShadows position={[0,-1.5,0]} opacity={.2} scale={40} blur={.5} far={10} resolution={256} color='#000000'/>
+            {/* <ContactShadows position={[0,-1.5,0]} opacity={.2} scale={40} blur={.5} far={10} resolution={256} color='#000000'/> */}
         </group>
     )
 }

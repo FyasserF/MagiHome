@@ -14,6 +14,7 @@ export default function NavBar() {
                 <NavLink to='/products'>Products</NavLink>
                 <NavLink to='/about'>About</NavLink>
                 <NavLink to='/new'>New</NavLink>
+                <button>Contact us</button>
             </div>
         </nav>
 

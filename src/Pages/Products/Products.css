@@ -1,0 +1,224 @@
+.products-wrraper {
+    width: 85%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .filter-section {
+        display: flex;
+        justify-content: right;
+        gap: 15px;
+
+        .group {
+            display: flex;
+            line-height: 28px;
+            align-items: center;
+            position: relative;
+            max-width: 220px;
+        }
+
+        .input {
+            font-family: "Montserrat", sans-serif;
+            width: 100%;
+            height: 45px;
+            padding-left: 2.5rem;
+            border: 0;
+            border-radius: 5px;
+            background-color: transparent;
+            outline: none;
+            color: black;
+            transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
+            cursor: text;
+            z-index: 0;
+            padding-right: 10px;
+            border: 1px solid var(--main-color);
+
+            &::placeholder {
+                color: black;
+            }
+
+
+            &:active {
+                transform: scale(0.95);
+            }
+
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 1rem;
+            fill: var(--main-color);
+            width: 1rem;
+            height: 1rem;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .select {
+            display: flex;
+            align-items: center;
+            border: 1px solid var(--main-color);
+            border-radius: 5px;
+            position: relative;
+
+            select {
+                height: 100%;
+                border-radius: 5px;
+                padding: 0 10px;
+                font-size: 12px;
+                font-size: 600;
+                outline: 0;
+                border: 0;
+                cursor: pointer;
+                background-color: transparent;
+                appearance: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                padding-left: 30px;
+            }
+
+            i {
+                position: absolute;
+                font-size: 13px;
+                left: 8px;
+                color: var(--main-color);
+            }
+        }
+
+
+
+    }
+
+    .nodata {
+        grid-column: span 4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 0;
+        gap: 20px;
+
+        img {
+            width: 300px;
+            mix-blend-mode: multiply;
+        }
+
+        p {
+            font-size: 11px;
+            letter-spacing: 1px;
+        }
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+
+        .item {
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            transition: .4s;
+
+            img {
+                width: 100%;
+                height: 240px;
+                border-radius: 5px;
+                object-fit: contain;
+            }
+
+            h3 {
+                position: relative;
+                color: var(--main-color);
+                font-size: 17px;
+                width: fit-content;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -4px;
+                    left: 0;
+                    height: 2px;
+                    width: 0;
+                    background-color: var(--main-color);
+                    transition: .4s;
+                }
+            }
+
+            p {
+                font-size: 13px;
+                color: rgba(49, 49, 49, 0.789);
+                display: -webkit-box;
+                /* For WebKit browsers */
+                display: -ms-flexbox;
+                /* For Microsoft Edge */
+                -webkit-box-orient: vertical;
+                -ms-flex-direction: column;
+                /* For Microsoft Edge */
+                overflow: hidden;
+                -webkit-line-clamp: 3;
+                /* For WebKit browsers */
+                -ms-line-clamp: 3;
+                /* For Microsoft Edge */
+                white-space: normal;
+                /* Required for line clamping */
+                text-overflow: ellipsis;
+            }
+
+            a {
+                margin-left: auto;
+                padding: 5px 10px;
+                position: relative;
+                overflow: hidden;
+                border: 1px solid var(--main-color);
+                transition: color .5s;
+                z-index: 1;
+                font-size: 12px;
+                border-radius: 6px;
+                font-weight: 500;
+                color: var(--main-color);
+                cursor: pointer;
+                text-decoration: none;
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    z-index: -1;
+                    background: var(--main-color);
+                    height: 150px;
+                    width: 200px;
+                    border-radius: 50%;
+                }
+
+                &:hover {
+                    color: #fff;
+                }
+
+                &:before {
+                    top: 100%;
+                    left: 100%;
+                    transition: all .7s;
+                }
+            }
+
+            a:hover:before {
+                top: -30px;
+                left: -30px;
+            }
+
+            &:hover {
+                transform: scale(1.04);
+
+                h3 {
+                    &::after {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

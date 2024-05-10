@@ -1,0 +1,252 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "nom": "Soin linge et sol"
+      },
+      {
+        "id": 2,
+        "nom": "Petit dejeuner"
+      },
+      {
+        "id": 3,
+        "nom": "Environnement saisonnier"
+      },
+      {
+        "id": 4,
+        "nom": "Four Posable et Micro ondes"
+      },
+      {
+        "id": 5,
+        "nom": "Cuisson PEM"
+      },
+      {
+        "id": 6,
+        "nom": "Préparation culinaire"
+      }
+    ],
+    "produits": [
+      {
+        "id": 101,
+        "nom": "Blender MH-43M",
+        "description": "Profitez d'une puissance de 300 watts, de 2 vitesses réglables et d'une tasse en verre robuste de 1,5 litre. Grâce à son mixeur à café et épices polyvalent, ainsi qu'à ses quatre lames en inox, dégustez les meilleurs jus avec le mixeur magihome",
+        "id_categorie": 6,
+        "img":"Blender MH43M.jpg"
+      },
+      {
+        "id": 102,
+        "nom": "Blender MH-46",
+        "description": "Profitez d'une puissance de 500 watts, de 5 vitesses réglables et d'une tasse en verre robuste de 1,5 litre. Grâce à son mixeur à café et épices polyvalent, ainsi qu'à ses quatre lames en inox, dégustez les meilleurs jus avec le mixeur magihome",
+        "id_categorie": 6,
+        "img":"Blender MH46.jpg"
+      },
+      {
+        "id": 103,
+        "nom": "Blender MH-47",
+        "description": "Profitez d'une puissance de 750 watts, de 2 vitesses réglables et d'une tasse en verre robuste de 1,5 litre. Grâce à son mixeur à café et épices polyvalent, ainsi qu'à ses quatre lames en inox, dégustez les meilleurs jus avec le mixeur magihome",
+        "id_categorie": 6,
+        "img":"Blender MH47.jpg"
+      },
+      {
+        "id": 104,
+        "nom": "Mini hachoir Verre",
+        "description": "Le mini hachoir en verre MH-150 est l'outil parfait pour votre cuisine. Avec sa puissance de 250 watts, il vous permet de hacher rapidement et facilement vos ingrédients préférés. Sa tasse en verre de 1,8 litre vous offre amplement d'espace pour préparer vos recettes préférées. Compact et efficace, ce mini hachoir sera un allié précieux dans la préparation de vos repas au quotidien.",
+        "id_categorie": 6,
+        "img":"Hachoir MH150.jpg"
+      },
+      {
+        "id": 105,
+        "nom": "Mini hachoir Inox",
+        "description": "Découvrez le mini hachoir Inox MH-149, un appareil polyvalent de 250W. Avec sa tasse en inox d'une capacité de 1,8 L, il vous permet de hacher vos ingrédients rapidement et efficacement pour préparer de délicieux plats en un rien de temps.",
+        "id_categorie": 6,
+        "img":"Hachoir MH149.jpg"
+      },
+      {
+        "id": 106,
+        "nom": "Mixeur PLG MHR1-15",
+        "description": "Le mixeur PLG MHR1-15 est un équipement de mélange professionnel couramment utilisé dans les environnements de restauration et de cuisine commerciale. Avec sa capacité à mélanger efficacement une variété d'ingrédients, il est particulièrement apprécié pour sa polyvalence et sa fiabilité. Que ce soit pour préparer des smoothies, des soupes, des sauces ou d'autres mélanges, le mixeur PLG MHR1-15 offre des performances de qualité supérieure. Son design robuste et ses fonctionnalités avancées en font un outil essentiel pour les chefs et les professionnels de la cuisine cherchant à obtenir des résultats homogènes et savoureux.",
+        "id_categorie": 6,
+        "img":"Mixeur Plongeant MHR1-15.jpg"
+      },
+      {
+        "id": 107,
+        "nom": "MIXEUR PLG MHR4-16A",
+        "description": "Formation courte et intensive sur le fonctionnement et l'utilisation efficace du MIXEUR PLG MHR4-16A 1700W AVC BOL. Cette formation vous permettra de maîtriser les différentes fonctionnalités de ce mixeur professionnel, notamment son moteur puissant de 1700W et son bol de grande capacité. Vous apprendrez à manipuler l'appareil en toute sécurité, à optimiser son utilisation pour des résultats de mixage parfaits, et à entretenir et nettoyer correctement l'équipement pour garantir sa longévité et sa performance optimale.",
+        "id_categorie": 6,
+        "img":"Mixeur Plongeant MHR4-16A.jpg"
+      },
+      {
+        "id": 108,
+        "nom": "Pétrin 5L",
+        "description": "Découvrez notre pétrin de cuisine de 5 litres, puissant avec ses 1000 watts. Équipé de 3 roues pratiques, ce pétrin vous offre une grande facilité de déplacement. Parfait pour pétrir vos pâtes et réaliser de délicieuses préparations culinaires en toute simplicité.",
+        "id_categorie": 6,
+        "img":"Pétrin_MH50.jpg"
+      },
+      {
+        "id": 109,
+        "nom": "Pétrin 7L",
+        "description": "Le Pétrin 7L 1000W avec 3 roues est un appareil puissant et pratique pour pétrir divers types de pâtes. Doté d'une capacité généreuse de 7 litres, il est idéal pour la cuisine domestique ou professionnelle. Ses 3 roues assurent une mobilité aisée, permettant de déplacer facilement le pétrin selon les besoins. Avec sa puissance de 1000W, il offre des performances fiables pour obtenir des résultats de pétrissage optimaux",
+        "id_categorie": 6,
+        "img":"Pétrin MH70.jpg"
+      },
+      {
+        "id": 110,
+        "nom": "Le robot multifonction",
+        "description": "Le robot multifonction MH620 750 W est un appareil multifonctionnel qui peut alimenter votre cuisine parfaite. Equipé d'un mixeur d'une capacité de 1,8 litres, il permet de préparer une large gamme de recettes, smoothies, soupes et sauces. D'une capacité de 1,2 L, il offre beaucoup d'espace pour préparer vos plats, et avec 3 lames et 5 fonctions différentes pour vous offrir une flexibilité parfaite pour s'adapter à une variété de cuisines différentes, ce robot multifonction est conçu pour vous faciliter la vie cuisine plus facile.",
+        "id_categorie": 6,
+        "img":"Robot MH620.jpg"
+      },
+      {
+        "id": 111,
+        "nom": "Barbecue",
+        "description": "Le 'Barbecue MH-366' est un gril à charbon de bois de haute qualité, idéal pour les amateurs de grillades en plein air. Avec sa conception robuste et ses caractéristiques fonctionnelles, il offre une expérience de barbecue exceptionnelle. Que ce soit pour des réunions familiales, des fêtes entre amis ou simplement pour profiter d'un repas en plein air, le Barbecue MH-366 est un choix parfait. Grâce à sa facilité d'utilisation et à sa capacité à produire une chaleur uniforme, il vous permettra de cuisiner de délicieuses grillades avec facilité et précision",
+        "id_categorie": 5,
+        "img":"BBQ MH366.jpg"
+      },
+      {
+        "id": 112,
+        "nom": "Friteuse",
+        "description": "La friteuse à air MH-120FF est un appareil de cuisine innovant qui utilise la technologie de l'air chaud pour frire les aliments. Contrairement aux friteuses traditionnelles qui nécessitent une grande quantité d'huile, la friteuse à air MH-120FF ne nécessite qu'une petite quantité d'huile ou même aucune huile du tout, ce qui la rend plus saine pour la cuisine quotidienne. Grâce à sa technologie de circulation d'air chaud à haute vitesse, elle est capable de cuire les aliments de manière uniforme et croustillante, tout en réduisant considérablement la quantité de graisse absorbée par les aliments. Avec la friteuse à air MH-120FF, vous pouvez profiter de délicieuses frites croustillantes, de beignets, de nuggets de poulet et bien plus encore, le tout avec moins de matières grasses et sans compromettre le goût. C'est l'appareil idéal pour ceux qui recherchent une alternative plus saine à la friture traditionnelle",
+        "id_categorie": 5,
+        "img":"AF501AZH.jpg"
+      },
+      {
+        "id": 113,
+        "nom": "Le Panini Grill",
+        "description": "Le Panini Grill MH-8808M est un appareil polyvalent conçu pour griller rapidement et efficacement des sandwichs, des paninis et d'autres aliments similaires. Doté de plaques antiadhésives, il assure une cuisson uniforme et évite que les aliments n'accrochent, facilitant ainsi le nettoyage. Son design compact le rend idéal pour une utilisation dans les cuisines domestiques ou commerciales où l'espace est limité. Avec le Panini Grill MH-8808M, vous pouvez préparer des repas délicieux et savoureux en un rien de temps, ce qui en fait un choix populaire pour les amateurs de cuisine et les professionnels de la restauration.",
+        "id_categorie": 5,
+        "img":"MH-8808M.jpg"
+      },
+      {
+        "id": 114,
+        "nom": "Lpanini 4 tranches",
+        "description": "La formation soivent 'Lpanini 4 tranches' est une session de formation qui se concentre sur la préparation de délicieux paninis avec une machine à panini à quatre tranches,Cette formation est idéale pour les professionnels de la restauration, les chefs cuisiniers ou toute personne passionnée par la cuisine et désireuse de maîtriser l'art de préparer des paninis savoureux et appétissants",
+        "id_categorie": 5
+      },
+      {
+        "id": 115,
+        "nom": "Panini 6 tranches",
+        "description": " La formation souvent pour la cuisson des sandwichs Panini 6 tranches consiste à apprendre les techniques et les étapes nécessaires pour préparer des Paninis délicieux et parfaitement grillés. Cette formation comprend généralement l'apprentissage de la préparation des ingrédients, du montage des sandwichs, du réglage et de l'utilisation de la presse à Panini, ainsi que des astuces pour obtenir une cuisson uniforme et une texture croustillante. Les participants apprennent également à personnaliser les garnitures et à créer des combinaisons de saveurs savoureuses pour satisfaire les préférences des clients",
+        "id_categorie": 5,
+        "img":""
+      },
+      {
+        "id": 116,
+        "nom": "Panini 2 tranches",
+        "description": "Le Lpanini 2 tranches est un délicieux sandwich chaud composé de deux tranches de pain grillé garnies d'une variété d'ingrédients savoureux. Que ce soit avec du fromage fondant, des légumes frais, de la viande savoureuse ou une combinaison de ceux-ci, le Lpanini 2 tranches est une option de repas rapide et satisfaisante pour les amateurs de sandwichs à toute heure de la journée.",
+        "id_categorie": 5,
+        "img":""
+      },
+      {
+        "id": 117,
+        "nom": "Four 42L",
+        "description": "Le four de 42 litres est un appareil polyvalent et pratique pour la cuisine quotidienne. Avec sa capacité généreuse, il permet de cuire une grande variété de plats, des petits gâteaux aux rôtis volumineux. Doté de fonctionnalités modernes telles que la cuisson par convection et des réglages de température précis, ce four offre une performance fiable pour des résultats de cuisson optimaux. Compact et efficace, il s'intègre facilement dans n'importe quelle cuisine, offrant ainsi une solution de cuisson pratique pour les familles et les amateurs de cuisine.",
+        "id_categorie": 4,
+        "img":""
+      },
+      {
+        "id": 118,
+        "nom": "Four 70L",
+        "description": "Le four 70 litres est un appareil polyvalent et pratique, idéal pour cuisiner une grande variété de plats. Avec sa capacité généreuse de 70 litres, il offre amplement d'espace pour cuire des plats pour toute la famille ou pour des occasions spéciales. Doté de différentes fonctions de cuisson, ce four vous permet de rôtir, cuire, griller et même de faire des pâtisseries avec facilité. Sa conception électrique le rend facile à utiliser et à entretenir, et sa taille compacte le rend parfait pour les cuisines de toutes tailles. Avec le four électrique 70 litres, préparer des repas délicieux n'a jamais été aussi simple et pratique.",
+        "id_categorie": 4,
+        "img":"Four MH7000.jpg"
+      },
+      {
+        "id": 119,
+        "nom": "Four 50L",
+        "description": "Le Four 50 litres est un appareil de cuisine qui offre une capacité de cuisson de 50 litres. Il est conçu pour cuire une variété d'aliments tels que des gâteaux, des pizzas, des plats cuisinés et bien plus encore. Ce type de four utilise l'électricité pour chauffer et cuire les aliments de manière efficace et uniforme. Il est idéal pour les cuisines domestiques ainsi que pour les petits établissements commerciaux tels que les cafés, les boulangeries et les restaurants. Son design compact en fait un choix pratique pour les espaces limités tout en offrant des performances fiables pour une cuisson précise et savoureuse",
+        "id_categorie": 4,
+        "img":"MH 5000.jpg"
+      },
+      {
+        "id": 120,
+        "nom": "Four 10L",
+        "description": "Le Four 10 litres est un appareil de cuisine compact et pratique, idéal pour la cuisson de petites portions ou pour les espaces restreints. Avec une capacité de 10 litres, il offre amplement d'espace pour cuire une variété d'aliments tels que des pizzas, des petits pains, des quiches ou des plats d'accompagnement. Son design électrique le rend facile à utiliser, et il est souvent équipé de différentes fonctions de cuisson pour répondre à divers besoins culinaires. Ce four est parfait pour ceux qui recherchent une solution de cuisson efficace et polyvalente dans leur cuisine",
+        "id_categorie": 4
+      },
+      {
+        "id": 121,
+        "nom": "Bouilloire inox",
+        "description": "La Bouilloire inox est un ustensile de cuisine courant utilisé pour chauffer l'eau rapidement. Fabriquée en acier inoxydable, elle offre souvent une durabilité accrue et une résistance à la corrosion. Idéale pour faire bouillir de l'eau pour préparer du thé, du café ou d'autres boissons chaudes, elle est également appréciée pour sa facilité d'entretien et son design élégant.",
+        "id_categorie": 2,
+        "img":"Bouiloire MH1507M.jpg"
+      },
+      {
+        "id": 122,
+        "nom": "Bouilloire verre",
+        "description": "La bouilloire en verre est un appareil de cuisine qui permet de chauffer de l'eau rapidement et efficacement. Conçue avec un matériau transparent, elle offre la possibilité de surveiller visuellement le processus de chauffage, ce qui peut être utile pour obtenir la température désirée. Elle est souvent équipée d'une base électrique pour la chauffe et peut être utilisée pour préparer diverses boissons chaudes, comme du thé, du café instantané ou du chocolat chaud. Son design élégant en verre lui confère également un aspect esthétique attrayant dans la cuisine",
+        "id_categorie": 2,
+        "img":"Bouilloire MH1508M.jpg"
+      },
+      {
+        "id": 123,
+        "nom": "Machine à café 3 en 1 rouge",
+        "description": "La Machine à café 3 en 1 est un appareil polyvalent conçu pour simplifier votre expérience de préparation de café. Cette machine offre une combinaison de fonctionnalités, souvent comprenant la capacité à préparer du café filtre, de l'espresso et parfois même du cappuccino ou du thé, le tout dans un seul appareil. Elle vous permet de savourer une variété de boissons chaudes avec facilité et commodité, idéale pour les amateurs de café qui apprécient la diversité et la praticité dans leur routine quotidienne.",
+        "id_categorie": 2,
+        "img":"Espresso MH504 RED.jpg"
+      },
+      {
+        "id": 124,
+        "nom": "Machine à café 3 en 1 noire",
+        "description": "La Machine à café 3 en 1 est un appareil polyvalent conçu pour simplifier votre expérience de préparation de café. Cette machine offre une combinaison de fonctionnalités, souvent comprenant la capacité à préparer du café filtre, de l'espresso et parfois même du cappuccino ou du thé, le tout dans un seul appareil. Elle vous permet de savourer une variété de boissons chaudes avec facilité et commodité, idéale pour les amateurs de café qui apprécient la diversité et la praticité dans leur routine quotidienne.",
+        "id_categorie": 2,
+        "img":""
+      },
+      {
+        "id": 125,
+        "nom": "Cafetiere 2 tasses",
+        "description": "La Cafetière 2 tasses est un appareil compact conçu pour préparer jusqu'à deux tasses de café en une seule fois. Parfait pour les amateurs de café qui préfèrent une petite quantité de café fraîchement préparé, cette cafetière offre une solution pratique pour ceux qui veulent savourer une boisson caféinée sans gaspiller une grande quantité de café. Son design compact en fait également un excellent choix pour les cuisines où l'espace est limité",
+        "id_categorie": 2
+      },
+      {
+        "id": 126,
+        "nom": "Presse Agrumes",
+        "description": "Le presse-agrumes est un ustensile de cuisine conçu pour extraire le jus des agrumes tels que les oranges, les citrons ou les pamplemousses. Il est généralement constitué d'un cône ou d'un embout pointu pour presser les fruits et d'un récipient pour recueillir le jus. Cet appareil est pratique pour préparer des jus frais riches en vitamines et en saveurs, et il est souvent utilisé au petit-déjeuner ou lors de la préparation de boissons rafraîchissantes.",
+        "id_categorie": 2,
+        "img":"Press agrume MH610-A.jpg"
+      },
+      {
+        "id": 127,
+        "nom": "Le chauffage à gaz et électrique",
+        "description": "Le chauffage à gaz et électrique est un appareil de chauffage qui utilise du gaz et électrique naturel ou du propane comme source d'énergie pour produire de la chaleur. Il est souvent utilisé dans les maisons, les bureaux et les espaces commerciaux pour fournir une chaleur efficace et confortable. Les chauffages à gaz et électrique sont appréciés pour leur rapidité à chauffer une pièce et leur capacité à maintenir une température constante.",
+        "id_categorie": 3,
+        "img":""
+      },
+      {
+        "id": 128,
+        "nom": "Le chauffage électrique",
+        "description": "Le chauffage électrique MH-13 de 1650 watts est conçu pour chauffer des espaces jusqu'à 55 mètres carrés. Il offre une solution efficace et pratique pour maintenir une température confortable dans des pièces de taille moyenne à grande. Avec sa puissance de chauffage et sa capacité à couvrir une surface généreuse, il est idéal pour assurer une chaleur agréable dans divers environnements domestiques ou professionnels",
+        "id_categorie": 3,
+        "img":"Chauffage MH13.jpg"
+      },
+      {
+        "id": 129,
+        "nom": "Le chauffage électrique",
+        "description": "Le chauffage électrique MH-12 de 1500W est conçu pour chauffer efficacement une pièce d'une superficie jusqu'à 30m². Il offre une solution pratique et rapide pour maintenir une température agréable dans votre espace, offrant chaleur et confort pendant les périodes plus fraîches. Son design compact et sa puissance permettent une distribution uniforme de la chaleur, assurant ainsi un environnement confortable dans votre maison ou votre bureau",
+        "id_categorie": 3,
+        "img":"Chauffage MH12.jpg"
+      },
+      {
+        "id": 130,
+        "nom": "Bain d’huile",
+        "description": "Le Bain d’huile MH-11 est un appareil de chauffage polyvalent offrant trois modes différents : 1000W, 1500W et 2500W. Il est conçu pour fournir une chaleur efficace et confortable dans votre espace, que ce soit pour réchauffer une pièce rapidement ou maintenir une température agréable pendant de longues périodes. Avec sa fonctionnalité de bain d'huile, il distribue la chaleur de manière uniforme, assurant ainsi une ambiance chaleureuse et confortable dans votre maison",
+        "id_categorie": 3,
+        "img":""
+      },
+      {
+        "id": 131,
+        "nom": "Aspirateur Balai",
+        "description": "L'Aspirateur Balai MH-3303 est un appareil ménager polyvalent conçu pour simplifier le nettoyage de votre maison. Avec sa conception légère et sa maniabilité, il vous permet d'aspirer efficacement les sols durs, les tapis et même les zones difficiles d'accès. Doté d'une puissante aspiration, il élimine facilement la poussière, les débris et les poils d'animaux pour laisser vos surfaces impeccables. Grâce à ses accessoires pratiques et à sa facilité d'utilisation, l'Aspirateur Balai MH-3303 deviendra rapidement un allié indispensable dans votre routine de nettoyage quotidienne.",
+        "id_categorie": 1,
+        "img":""
+      },
+      {
+        "id": 132,
+        "nom": "Aspirateur Sans Sac",
+        "description": "L'aspirateur sans sac MH-3301 est un appareil ménager efficace et pratique pour le nettoyage de votre maison. Doté d'une technologie avancée, il offre une aspiration puissante qui permet de capturer la saleté et les débris en profondeur, laissant vos sols impeccables. Grâce à son design sans sac, vous pouvez dire adieu aux sacs jetables et bénéficier d'une utilisation plus écologique. De plus, son système de filtration performant retient même les particules les plus fines, assurant ainsi un air plus sain dans votre intérieur. Compact et facile à manœuvrer, l'aspirateur MH-3301 est l'allié idéal pour simplifier vos tâches ménagères",
+        "id_categorie": 1,
+        "img":""
+      }
+    ]
+  }
+  
