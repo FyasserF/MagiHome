@@ -9,11 +9,11 @@ import NosPoints from "../../Components/NosPoints/NosPoints";
 export default function Home() {
     return (
         <div className="home-page">
-            {/* <NavBar /> */}
+            <NavBar />
             <Hero />
             <BestProduct />
             <NosPoints />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
