@@ -1,9 +1,5 @@
 import './NosPoints.css'
-// import arrows from '/images/NosPointsImages/arrows.png'
-
-// import { Canvas } from '@react-three/fiber'
-// import Model from './Model'
-// import { Environment } from '@react-three/drei'
+import img from '../../../public/images/NosPointsImages/point.png'
 
 export default function NosPoints() {
 
@@ -12,7 +8,7 @@ export default function NosPoints() {
 
             <h2>Nos Points</h2>
             <div className='nos-points-wrraper'>
-                <img src="/images/NosPointsImages/point.png" alt="" />
+                <img src={img} alt="" />
             </div>
         </div>
     )

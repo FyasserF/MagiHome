@@ -1,6 +1,7 @@
 import './Hero.css'
 import { Link } from 'react-router-dom'
 import { motion as m } from 'framer-motion'
+import img from '../../../public/images/WhatsApp Image 2024-05-07 at 17.44.11_2c68ccf5.jpg'
 export default function Hero() {
     return (
         <div className='hero'>
@@ -45,7 +46,7 @@ export default function Hero() {
                 transition={{ duration: 1.1, ease: "easeInOut" }}
             >
                 <div className="img">
-                    <img src="images/WhatsApp Image 2024-05-07 at 17.44.11_2c68ccf5.jpg" alt="" />
+                    <img src={img} alt="" />
                 </div>
             </m.div>
         </div>
