@@ -1,5 +1,5 @@
 import './Footer.css'
-import Logo from '../../../public/images/Logo_Magi_Home.png'
+import Logo from '/images/Logo_Magi_Home.png'
 import { Link } from 'react-router-dom'
 export default function Footer() {
     return (
@@ -15,9 +15,10 @@ export default function Footer() {
                     <h4>pages</h4>
                     <ul>
                         <li><Link to='/'>Accueil</Link></li>
-                        <li><Link>Produits</Link></li>
-                        <li><Link>Notre entreprise</Link></li>
-                        <li><Link>Contact</Link></li>
+                        <li><Link to='/products'>Produits</Link></li>
+                        <li><Link to='/Nouveautés'>Nouveautés</Link></li>
+                        <li><Link to='/about'>Notre Entreprise</Link></li>
+                        <li><Link to='/contact'>Contact</Link></li>
                     </ul>
                 </div>
 
@@ -31,7 +32,7 @@ export default function Footer() {
                 </div>
 
                 <div className="footer-col">
-                    <h4>Suiver nous</h4>
+                    <h4>Suiver nouz</h4>
                     <div className="social-links">
                         <a href="https://web.facebook.com/electro.magi.home"><i className="fab fa-facebook-f"></i></a>
                         <a href="https://www.instagram.com/magihome_electro/"><i className="fab fa-instagram"></i></a>

@@ -1,5 +1,5 @@
 footer {
-    background-color: var(--background-color);
+    background-color: white;
 
 
     .first-section {
@@ -102,7 +102,7 @@ footer {
 
     .secend-section {
         p {
-            background-color: white;
+            background-color: var(--background-color);
             padding: 15px 0;
             text-align: center;
             font-size: 12px;

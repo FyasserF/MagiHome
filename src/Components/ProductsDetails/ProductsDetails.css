@@ -48,7 +48,8 @@
             .otherImags {
                 display: flex;
                 flex-direction: column;
-                justify-content: space-between;
+                justify-content: flex-start;
+                gap: 5px;
 
                 .imgContainer {
                     background-color: white;

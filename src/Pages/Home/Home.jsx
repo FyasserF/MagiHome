@@ -12,7 +12,7 @@ export default function Home() {
             <NavBar />
             <Hero />
             <BestProduct />
-            {/* <NosPoints /> */}
+            <NosPoints />
             <Footer />
         </div>
     )

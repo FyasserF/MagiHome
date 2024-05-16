@@ -1,0 +1,39 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  width: 85%;
+  margin: 50px auto;
+
+  .aboutUs {
+    padding: 20px;
+
+    h1 {
+      color: var(--main-color);
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 10px;
+
+      strong {
+        color: var(--main-color);
+        font-size: 15px;
+      }
+    }
+  }
+
+  .img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    img {
+      width: 600px;
+      border-radius: 10px;
+    }
+  }
+
+}

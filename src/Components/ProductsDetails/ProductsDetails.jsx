@@ -1,6 +1,5 @@
 import { Link, useParams } from 'react-router-dom'
 import './ProductsDetails.css'
-import product from '../../../public/images/ProductsImages/Design sans titre (72).png'
 import data from '../../../Data/ProduitData.json'
 import { useEffect } from 'react'
 import { motion as m } from 'framer-motion'
@@ -11,6 +10,9 @@ export default function ProductsDetails() {
     const Product = Products.filter(i => i.id == id)
     const relatedProducts = Products.filter(i => (i.id_categorie == Product[0].id_categorie) && (i.id !== Product[0].id)).slice(0, 8)
     // console.log(relatedProducts)
+    // const [images, setimages] = useState([
+
+    // ])
 
 
     useEffect(() => {
@@ -19,6 +21,13 @@ export default function ProductsDetails() {
             behavior: 'smooth'
         });
     }, []);
+
+    const handleclick = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
     return (
         <m.div
             initial={{ opacity: 0 }}
@@ -34,18 +43,18 @@ export default function ProductsDetails() {
                 <h2 className="title">{Product[0].nom}</h2>
                 <div className="details">
                     <div className="otherImags">
-                        <div className="imgContainer">
-                            <img src={product} alt="product img" />
-                        </div>
-                        <div className="imgContainer">
-                            <img src={product} alt="product img" />
-                        </div>
-                        <div className="imgContainer">
-                            <img src={product} alt="product img" />
-                        </div>
+                        {Product[0].plusImg.map((item, index) => {
+                            // console.log(item)
+                            return (
+                                <div className="imgContainer" key={index}>
+                                    <img src={`/images/PlusImgProduits/${item}`} alt="product img" />
+                                </div>
+                            )
+
+                        })}
                     </div>
                     <div className="mainImg">
-                        <img src={product} alt="product img" />
+                        <img src={`/images/ProductsImages/${Product[0].img}`} alt="product img" />
                     </div>
 
                     <div className="text">
@@ -61,16 +70,16 @@ export default function ProductsDetails() {
                 <div className="items">
                     {relatedProducts.map((item, index) => (
                         <div className="item" key={index}>
-                            <img src={product} alt="product img" />
+                            <img src={`/images/ProductsImages/${item.img}`} alt="product img" />
                             <h3>{item.nom}</h3>
                             <p>{item.description}</p>
-                            <Link to={`/products/${item.id}`}> Voir Details</Link>
+                            <Link to={`/products/${item.id}`} onClick={handleclick}> Voir Details</Link>
                         </div >
                     ))}
 
                 </div>
 
             </div>
-        </m.div>
+        </m.div >
     )
 }

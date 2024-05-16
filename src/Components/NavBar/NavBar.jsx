@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import './NavBar.css'
-import Logo from '../../../public/images/Logo_Magi_Home.png'
+import Logo from '/images/Logo_Magi_Home.png'
 
 export default function NavBar() {
     return (
@@ -10,11 +10,12 @@ export default function NavBar() {
                 <img src={Logo} alt="" />
             </div>
             <div className="links">
-                <NavLink to='/'>Home</NavLink>
-                <NavLink to='/products'>Products</NavLink>
-                <NavLink to='/about'>About</NavLink>
-                <NavLink to='/new'>New</NavLink>
-                <button>Contact us</button>
+                <NavLink to='/'>Accueil</NavLink>
+                <NavLink to='/products'>Produits</NavLink>
+                <NavLink to='/Nouveautés'>Nouveautés</NavLink>
+                <NavLink to='/about'>Notre Entreprise</NavLink>
+                <NavLink to='/contact'>Contact</NavLink>
+                
             </div>
         </nav>
 

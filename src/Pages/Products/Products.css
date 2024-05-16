@@ -136,17 +136,26 @@
                 color: var(--main-color);
                 font-size: 17px;
                 width: fit-content;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                -webkit-box-orient: vertical;
+                -ms-flex-direction: column;
+                overflow: hidden;
+                -webkit-line-clamp: 1;
+                -ms-line-clamp: 1;
+                white-space: normal;
+                text-overflow: ellipsis;
 
-                &::after {
+                /*  &::after {
                     content: '';
                     position: absolute;
                     bottom: -4px;
                     left: 0;
                     height: 2px;
-                    width: 0;
+                    width: 100%;
                     background-color: var(--main-color);
                     transition: .4s;
-                }
+                } */
             }
 
             p {
@@ -213,11 +222,11 @@
             &:hover {
                 transform: scale(1.04);
 
-                h3 {
+                /* h3 {
                     &::after {
                         width: 100%;
                     }
-                }
+                } */
             }
         }
     }
