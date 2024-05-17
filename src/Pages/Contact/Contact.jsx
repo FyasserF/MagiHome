@@ -1,19 +1,10 @@
 import './Contact.css';
 import NavBar from '../../Components/NavBar/NavBar';
 import Footer from '../../Components/Footer/Footer';
-import emailjs from 'emailjs-com';
 
 export default function Contact() {
-  const sendEmail = (e) => {
-    e.preventDefault();
 
-    emailjs.sendForm('service_9ytpe5c', 'template_049qxzd', e.target,'xjmbdsfcm5OIr8Z2y')
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      });
-  };
+  
   return (
     <>
     <NavBar />
@@ -26,7 +17,7 @@ export default function Contact() {
             <ul>
               <li>
                 <i className="fa fa-map-marker" aria-hidden="true"></i>
-                <p>N°82.Etage 1, zone industrielle, commune ouled Azzouz, Casablanca</p>
+                <p>N°82 . Étage 1 , zone industrielle, commune ouled Azzouz, Casablanca</p>
               </li>
               <li>
                 <i className="fas fa-envelope" aria-hidden="true"></i>
@@ -53,7 +44,7 @@ export default function Contact() {
         <div className='img' style={{width:'50%'}}>
             <img src="assets/bg-19.png" style={{width:'500px'}}/>
         </div>
-        <form onSubmit={sendEmail}>
+        <form >
           <span>Laisser un message</span>
           <input type="text" name="from_name" placeholder="votre nom" />
           <input type="email" name="reply_to" placeholder="E-mail" />

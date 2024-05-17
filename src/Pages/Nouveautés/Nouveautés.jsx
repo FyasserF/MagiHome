@@ -10,7 +10,29 @@ import ProductsCardNew from '../../Components/ProductsCard/ProductsCardNew';
 
 
 export default function Products() {
-    const [filtredProducts, setfiltredProducts] = useState(data.produits)
+    const [filtredProducts, setfiltredProducts] = useState([{
+        "id": 112,
+        "nom": "Friteuse 11L",
+        "description": "La friteuse à air de 11 litres et 2400 watts offre une grande capacité et une puissance élevée. Avec 10 programmes de cuisson, elle répond à divers besoins culinaires. Son écran tactile numérique facilite son utilisation.",
+        "id_categorie": 2,
+        "img":"Friteuse à air 11L 2.png",
+        "plusImg":["Friteuse à air 11L.png","Friteuse à air 11L 1.png"]
+      },{
+        "id": 136,
+        "nom": "Ventilateur sur pied",
+        "description": "Le ventilateur sur pied MH0001 est équipé de cinq pales ajustables en hauteur, offrant ainsi une meilleure direction du flux d'air. Avec trois vitesses différentes, vous pouvez choisir celle qui vous convient le mieux. Son moteur silencieux assure un fonctionnement sans perturbation, et sa minuterie permet une utilisation programmée. De plus, sa couverture horizontale à 80 degrés assure une distribution optimale de l'air dans la pièce.",
+        "id_categorie": 6,
+        "img":"Ventilateur sur pied.png",
+        "plusImg":[]
+      },
+      {
+        "id": 136,
+        "nom": "Ventilateur sur pied Max",
+        "description": "Le ventilateur sur pied MH0002 MAX est équipé de cinq pales offrant un flux d'air puissant. Réglable jusqu'à 125 cm de hauteur, il assure une distribution optimale de l'air. Avec trois vitesses, un moteur silencieux et une couverture horizontale à 80 degrés, il garantit confort et fraîcheur dans toute la pièce.",
+        "id_categorie": 6,
+        "img":"Ventilateur sur pied Max.png",
+        "plusImg":[]
+      }])
 
 
    

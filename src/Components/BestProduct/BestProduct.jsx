@@ -6,9 +6,8 @@ import Picture2 from '/images/BestProductsImages/IMG2.png';
 import Picture3 from '/images/BestProductsImages/IMG3.png';
 import Picture4 from '/images/BestProductsImages/IMG4.png';
 import Picture5 from '/images/BestProductsImages/IMG5.png';
-import Picture6 from '/images/BestProductsImages/IMG6.png'
+import Picture6 from '/images/BestProductsImages/IMG6.png';
 import Picture7 from '/images/BestProductsImages/IMG7.png'
-
 
 export default function BestProduct() {
     const container = useRef(null);
@@ -30,7 +29,7 @@ export default function BestProduct() {
 
     const pictures = [
         {
-            src: Picture1,
+            src: Picture3,
             scale: scale4
         },
         {
@@ -38,25 +37,27 @@ export default function BestProduct() {
             scale: scale5
         },
         {
-            src: Picture3,
+            src: Picture6,
             scale: scale6
-        },
-        {
-            src: Picture4,
-            scale: scale5
         },
         {
             src: Picture5,
-            scale: scale6
+            scale: scale5
         },
-        {
-            src: Picture6,
-            scale: scale8
-        },
-        {
-            src: Picture7,
-            scale: scale9
-        }
+        // {
+        //     src: Picture1,
+        //     scale: scale6
+        // },
+        // {
+        //     src: Picture4,
+        //     scale: scale8
+        // },
+        // {
+        //     src: Picture7,
+        //     scale: scale9
+        // }
+
+
     ]
 
 
@@ -86,8 +87,8 @@ export default function BestProduct() {
                                             className='text-wrraper'
                                             style={{ opacity: opacity, x: moveX1 }}
                                         >
-                                            <h3>Le robot multifonction</h3>
-                                            <p>votre cuisine parfaite. Equipé d'un mixeur d'une capacité de 1,8 litres, il permet de préparer une large gamme de recettes, smoothies, soupes et sauces. D'une capacité de 1,2 L, il offre beaucoup d'espace pour préparer vos plats, et avec 3 lames et 5 fonctions différentes pour vous offrir une flexibilité parfaite pour s'adapter à une variété de cuisines différentes, ce robot multifonction est conçu pour vous faciliter la vie cuisine plus facile.</p>
+                                            <h3>Pétrin 7L</h3>
+                                            <p>Le pétrin MH70 de 7 litres et 1000 W est un batteur électrique spacieux idéal pour préparer de la pâte maison. Avec plusieurs vitesses de pétrissage, il permet de préparer facilement différents types de pâte. Son bol en acier inoxydable de 7 litres est résistant et facile à nettoyer, en faisant un outil de cuisine pratique pour les amateurs de pâtisserie.</p>
                                         </m.div>
                                         :
                                         ''}

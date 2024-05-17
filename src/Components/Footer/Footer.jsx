@@ -12,27 +12,27 @@ export default function Footer() {
                 </div>
 
                 <div className="footer-col">
-                    <h4>pages</h4>
+                    <h4>Pages</h4>
                     <ul>
                         <li><Link to='/'>Accueil</Link></li>
-                        <li><Link to='/products'>Produits</Link></li>
-                        <li><Link to='/Nouveautés'>Nouveautés</Link></li>
-                        <li><Link to='/about'>Notre Entreprise</Link></li>
-                        <li><Link to='/contact'>Contact</Link></li>
+                        <li><Link>Produits</Link></li>
+                        <li><Link>Nouveautés</Link></li>
+                        <li><Link>Notre Entreprise</Link></li>
+                        <li><Link>Contact</Link></li>
                     </ul>
                 </div>
 
                 <div className="footer-col Map">
                     <h4>Informations</h4>
                     <ul>
-                        <li><i className="fas fa-map-marker-alt"></i><a href="#"> N°82.Etage 1, zone industrielle, commune ouled Azzouz, Casablanca </a></li>
+                        <li><i className="fas fa-map-marker-alt"></i><a href="#"> N°82 . Étage 1, zone industrielle, commune ouled Azzouz, Casablanca </a></li>
                         <li><i className="fas fa-phone"></i><a href="#"> 0522906978 </a></li>
                         <li><i className="fas fa-envelope"></i><a href="#"> Monahome.home@gmail.com </a></li>
                     </ul>
                 </div>
 
                 <div className="footer-col">
-                    <h4>Suiver nouz</h4>
+                    <h4>Suivez nous</h4>
                     <div className="social-links">
                         <a href="https://web.facebook.com/electro.magi.home"><i className="fab fa-facebook-f"></i></a>
                         <a href="https://www.instagram.com/magihome_electro/"><i className="fab fa-instagram"></i></a>
